@@ -1,7 +1,6 @@
 package Mandatory_data_alg;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
@@ -56,10 +55,8 @@ public class Mandatory_1 {
             return (int) s;
         }
 
-        int bitch = binarySearch(diffs, n / 2, j, n / 2);
 
-
-        return bitch;
+        return binarySearch(diffs, n / 2, j, n / 2);
     }
 
     public static int binarySearch(List<Integer> diffs, int strength, int maxJumps, int change) {
