@@ -44,7 +44,7 @@ public class Mandatory_1 {
             }
         }
 
-        //Speed shit up by calculating minimum stuff
+        //Speed sh0t up by calculating minimum stuff
         int minStrength = (int) Math.ceil(sum / (double) j);
         if (minStrength == 0) {
             return 1;
